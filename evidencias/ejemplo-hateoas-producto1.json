@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "nombre": "Arroz 1kg",
+    "precio": 1290.0,
+    "stock": 50,
+    "categoria": {
+        "id": 1,
+        "nombre": "Abarrotes"
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/api/productos/1"
+        },
+        "productos": {
+            "href": "http://localhost:8080/api/productos"
+        }
+    }
+}

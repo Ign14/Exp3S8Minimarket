@@ -1,0 +1,47 @@
+{
+    "_embedded": {
+        "productoList": [
+            {
+                "id": 1,
+                "nombre": "Arroz 1kg",
+                "precio": 1290.0,
+                "stock": 50,
+                "categoria": {
+                    "id": 1,
+                    "nombre": "Abarrotes"
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/api/productos/1"
+                    },
+                    "productos": {
+                        "href": "http://localhost:8080/api/productos"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "nombre": "Leche 1L",
+                "precio": 990.0,
+                "stock": 30,
+                "categoria": {
+                    "id": 1,
+                    "nombre": "Abarrotes"
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/api/productos/2"
+                    },
+                    "productos": {
+                        "href": "http://localhost:8080/api/productos"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/api/productos"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+# Excluir evidencias (reporte HTML/capturas) del conteo de lenguajes de GitHub
+evidencias/** linguist-documentation
